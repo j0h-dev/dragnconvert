@@ -12,6 +12,7 @@
     "prettier": "prettier --check \"**/*.{ts,tsx,js,md,mdx,css}\"",
     "prettier:fix": "prettier --write \"**/*.{ts,tsx,js,md,mdx,css}\""
   },
+  "engines": { "node": "20" },
   "dependencies": {
     "@ffmpeg/ffmpeg": "^0.12.15",
     "@ffmpeg/util": "^0.12.2",
